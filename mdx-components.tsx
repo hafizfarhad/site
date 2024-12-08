@@ -23,13 +23,13 @@ const components = {
   <h4 className="font-medium" {...props} />
   ),
   p: (props: ParagraphProps) => (
-    <p className="text-gray-400 font-light leading-relaxed text-lg md:text-xl tracking-wide" {...props} />
+    <p className="text-gray-400 leading-relaxed text-base md:text-lg tracking-wide" {...props} />
   ),
   ol: (props: ListProps) => (
     <ol className="text-gray-200 list-decimal pl-5 space-y-2" {...props} />
   ),
   ul: (props: ListProps) => (
-    <ul className="text-gray-200 list-disc pl-5 space-y-1" {...props} />
+    <ul className="text-gray-200 list-disc pl-5 space-y-2" {...props} />
   ),
   li: (props: ListItemProps) => <li className="pl-1" {...props} />,
   em: (props: ComponentPropsWithoutRef<'em'>) => (
@@ -92,10 +92,10 @@ const components = {
   ),
   blockquote: (props: BlockquoteProps) => (
     <blockquote
-      className="ml-[0.075em] border-l-3 border-gray-300 pl-4 text-gray-700"
+      className="ml-4 pl-6 pr-4 py-2 border-l-4 border-blue-500 bg-blue-50 rounded-lg text-gray-800 italic shadow-sm"
       {...props}
     />
-  ),
+  ),  
 };
 
 declare global {

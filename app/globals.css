@@ -35,6 +35,18 @@ h1 {
   font-size: 2.3rem;
 }
 
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
 pre {
   background-color: #16161e;
   border-radius: 0.5rem;
@@ -52,35 +64,98 @@ pre {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
+/* General styling for inline code */
 code {
-  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
-  font-size: 14px;
-  padding: 0.2em 0.4em;
-  border-radius: 0.3em;
-  background-color: var(--color-gray-100);
+  font-family: 'Fira Code', 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+  padding: 0.1em 0.3em;
+  border-radius: 0.25em;
+  background-color: #2d2d2d; /* Dark gray background */
+  color: #f8f8f2; /* Light text for good contrast */
+  white-space: nowrap;
+  line-height: 1.4;
 }
 
+/* Preformatted code block */
+pre {
+  background-color: #1e1e1e; /* Slightly darker for blocks */
+  border: 1px solid #3a3a3a; /* Subtle border for differentiation */
+  border-radius: 0.4em;
+  padding: 1em;
+  font-family: 'Fira Code', 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: #f8f8f2; /* Light text */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: pre; /* Preserve line breaks */
+  word-wrap: break-word; /* Break long words */
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+/* Prevent pre > code blocks from inheriting extra padding */
 pre code {
-  background-color: transparent;
+  display: block; /* Ensure the content spans multiple lines */
+  white-space: inherit;
+  background-color: transparent; /* Pre background takes precedence */
   padding: 0;
   border: none;
-  font-size: 14px;
-  line-height: 1.5;
+  color: inherit; /* Inherit from pre */
+  font-size: inherit;
 }
 
-pre code > span .sh__token--identifier {
-  color: white !important;
-}
-
-code:not(pre code) span {
-  font-weight: 500;
-  color: black !important;
-}
-
-pre code span {
+/* Syntax highlighting for specific tokens */
+pre code .sh__token--keyword {
+  color: #ff79c6; /* Pink for keywords */
   font-weight: 500;
 }
+
+pre code .sh__token--string {
+  color: #50fa7b; /* Green for strings */
+}
+
+pre code .sh__token--function {
+  color: #61dafb; /* Light blue for functions */
+}
+
+pre code .sh__token--comment {
+  color: #6272a4; /* Distinct grayish blue for comments */
+  font-style: italic; /* Italics to differentiate comments further */
+  opacity: 0.8; /* Slightly dimmed */
+}
+
+pre code .sh__token--identifier {
+  color: #f8f8f2; /* White for identifiers */
+}
+
+pre code .sh__token--number {
+  color: #bd93f9; /* Purple for numbers */
+}
+
+/* Inline code within paragraphs */
+code:not(pre code) {
+  font-weight: 600;
+  background-color: #44475a; /* Slightly darker for inline */
+  color: #f1fa8c; /* Bright yellow for inline text */
+  padding: 0.1em 0.25em; /* Slightly reduced padding */
+  border-radius: 0.3em;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrollbar styling for pre blocks */
+pre::-webkit-scrollbar {
+  height: 8px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: #44475a;
+  border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: #6272a4;
+}
+
 
 hr {
   color: var(--color-gray-200);
