@@ -23,13 +23,13 @@ const components = {
   <h4 className="font-medium" {...props} />
   ),
   p: (props: ParagraphProps) => (
-    <p className="text-gray-400 leading-relaxed text-base md:text-lg tracking-wide" {...props} />
+    <p className="text-gray-400 font-medium leading-relaxed text-base md:text-lg tracking-wide" {...props} />
   ),
   ol: (props: ListProps) => (
     <ol className="text-gray-200 list-decimal pl-5 space-y-2" {...props} />
   ),
   ul: (props: ListProps) => (
-    <ul className="text-gray-200 list-disc pl-5 space-y-2" {...props} />
+    <ul className="text-gray-200 list-disc pl-5 space-y-2 text-base md:text-lg tracking-wide" {...props} />
   ),
   li: (props: ListItemProps) => <li className="pl-1" {...props} />,
   em: (props: ComponentPropsWithoutRef<'em'>) => (
