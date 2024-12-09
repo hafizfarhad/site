@@ -7,15 +7,15 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.com'),
+  metadataBase: new URL('https://hafizfarhad.com'),
   alternates: {
     canonical: '/',
   },
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Hafiz Farhad',
+    template: '%s | Hafiz Farhad',
   },
-  description: 'Frontend developer, optimist, community builder.',
+  description: 'Cyber security researcher, programmer, & ctf player.',
 };
 
 export default function RootLayout({

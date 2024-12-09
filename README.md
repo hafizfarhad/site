@@ -1,5 +1,3 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fsite)
-
 # site
 
 - **Framework**: [Next.js](https://nextjs.org/)
@@ -32,11 +30,3 @@ CREATE TABLE redirects (
   permanent BOOLEAN NOT NULL
 );
 ```
-
-## License
-
-1. You are free to use this code as inspiration.
-2. Please do not copy it directly.
-3. Crediting the author is appreciated.
-
-Please remove all of my personal information by running `bun run delete`.
