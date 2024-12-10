@@ -11,7 +11,7 @@ In my free time, I play ctfs and (try to) document everything I learn and build 
 
 If you want to get in touch with me about something or just to say hi, reach out on social media or [send me an email](mailto:hi@hafizfarhad.com).
 
-
+---
 
 # Work
 
