@@ -15,7 +15,7 @@ export const SITE: Site = {
   editPost: {
     url: "https://github.com/hafizfarhad/site/edit/main/src/content/blog",
     text: "Suggest Changes",
-    appendFilePath: true,
+    appendFilePath: false,
   },
 };
 
