@@ -1,7 +1,7 @@
 ---
 title: Technical Analysis of WannaCry Ransomware
 author: Hafiz Farhad
-pubDatetime: 2023-07-20T15:33:05.569Z
+pubDatetime: 2024-09-21T09:12:47.400Z
 modDatetime: 2024-11-21T09:12:47.400Z
 slug: wannacry-ransomware
 featured: true

@@ -1,7 +1,7 @@
 ---
 title: OverTheWire Krypton Wargame Writeup
 author: Hafiz Farhad
-pubDatetime: 2023-07-20T15:33:05.569Z
+pubDatetime: 2024-10-21T09:12:47.400Z
 modDatetime: 2024-11-21T09:12:47.400Z
 slug: krypton-wargame
 featured: false

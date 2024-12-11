@@ -1,7 +1,7 @@
 ---
 title: Ignite National Technology Fund CTF 2024 Writeup
 author: Hafiz Farhad
-pubDatetime: 2024-07-20T15:33:05.569Z
+pubDatetime: 2024-08-20T15:33:05.569Z
 modDatetime: 2024-11-21T09:12:47.400Z
 slug: ignite-techfund-ctf-2024
 featured: false
