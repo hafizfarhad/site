@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Hafiz Farhad",
   profile: "https://hafizfarhad.com/",
   desc: "Cyber security researcher, programmer, & ctf player.",
-  title: "AstroPaper",
+  title: "Hafiz Farhad",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -26,7 +26,7 @@ export const LOCALE = {
 
 export const LOGO_IMAGE = {
   enable: false,
-  svg: true,
+  svg: false,
   width: 216,
   height: 46,
 };
@@ -52,7 +52,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/hafizfarad",
+    href: "https://linkedin.com/in/hafizfarhad",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
