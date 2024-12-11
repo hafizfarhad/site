@@ -44,15 +44,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <p>
         I am Hafiz Farhad. I am from Pakistan. I do security.
       </p>
-      <p>
-        Read the blog posts or contact me
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="mailto:hi@hafizfarhad.com"
-        >
-          here
-        </LinkButton>.
-      </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
