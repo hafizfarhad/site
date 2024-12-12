@@ -10,29 +10,3 @@ Currently, I’m in my junior year at FAST NUCES Karachi pursuing a bachelor’s
 In my free time, I play ctfs and (try to) document everything I learn and build so that I can reflect upon my journey (and maybe inspire fellow cyber security researchers). You can read my writing [here](/).
 
 If you want to get in touch with me about something or just to say hi, reach out on social media or [send me an email](mailto:hi@hafizfarhad.com).
-
----
-
-# Work
-
-Here's a summary of my work so far.
-
----
-
-## FAST NUCES Karachi
-
-Cyber Security Research Assistant, Aug 2024 - present
-
-Testing and analyzing different types of malwares to understand their impact on systems. 
-
-Maintaining a detailed record of malware analysis.
-
----
-
-## FAST NUCES Karachi
-
-Student Teaching Assistant, Aug 2024 - Dec 2024
-
-Supporting professors in teaching Computer Organization and Assembly Language. 
-
-Providing timely grading and feedback of 45+ students.
